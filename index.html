@@ -12,13 +12,18 @@
                 <button class="início">Início</button>
             </div>
         </header>
+        <footer class="footer">
+            <a href="https://github.com/garotopessoa/Site_eletiva_tassio" class="link">Código Fonte</a>
+        </footer>
     </body>
 </html>
 <style>
 
     body {
         background-color: #F6F8FB;
-        height: 2000px;
+        min-height: 98vh;
+        display:flex;
+        flex-direction: column;
     }
 
     .header {
@@ -65,6 +70,26 @@
         border: solid;
         border-width: 2px;
         border-radius: 5px;
+    }
+
+    .footer {
+        height: 40px;
+        border: solid;
+        border-width: 2px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+        margin-top: auto;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .link {
+        font-family: 'jetbrains mono';
+        font-size: 20px;
+        color: #2683EB;
+        margin-top: 7px;
     }
 
 </style>
