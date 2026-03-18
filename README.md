@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-*para acessar:https://garotopessoa.github.io/Site_eletiva_tassio_git/*
+*para acessar:[https://lisupaon.vercel.app/](https://lisupaon.vercel.app/)*
 =======
 # Nuxt Content Starter
 
