@@ -9,7 +9,7 @@
   <div class="flex flex-wrap gap-3 mt-9 justify-center px-12">
     <UCard variant="soft">
       <template #header>
-        Lorem
+        Arthur Vieira
       </template>
 
       <template #footer>
@@ -20,22 +20,28 @@
 
     <UCard variant="soft">
       <template #header>
-        Lorem
+        Lucas Raposo
       </template>
 
       <template #footer>
         Lorem ipsum dolor sit amet
-        <UAvatar src="https://github.com/arthurdeveloper.png" />
+        <UAvatar src="https://github.com/garotopessoa.png" />
       </template>
     </UCard>
 
     <UCard variant="soft">
       <template #header>
-        Lorem
+        Equipe
       </template>
 
       <template #footer>
-        Lorem ipsum dolor sit amet
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Morbi suscipit sapien augue, dapibus auctor metus luctus vel.
+        Pellentesque non risus id orci ornare consectetur sit amet dignissim velit.
+        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+        Nunc posuere lacus enim, in aliquam orci sodales nec.
+        Donec pellentesque purus purus, id placerat turpis fringilla nec.
+        Pellentesque lacinia arcu non venenatis iaculis. Fusce ut varius sem.
         <UAvatar src="https://github.com/arthurdeveloper.png" />
       </template>
     </UCard>
@@ -48,15 +54,15 @@
         Exemplo
       </template>
 
-      <iframe 
-        width="525"
-        height="394"
+      <iframe
+        height="315"
         src="https://www.youtube.com/embed/_CSjq-UyaWA"
         title="Secos &amp; Molhados - Sangue Latino [Raridade]"
         frameborder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen 
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9; height:315px;"
       />
 
       <template #footer>
@@ -70,14 +76,15 @@
       </template>
 
       <iframe 
-        width="525"
-        height="394"
+        width="560"
+        height="315"
         src="https://www.youtube.com/embed/CNovnrkM8XU"
         title="Travessia | Milton Nascimento"
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen>
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9; height:315px;">
       </iframe>
 
       <template #footer>
@@ -91,14 +98,16 @@
       </template>
 
       <iframe 
-        width="525" 
-        height="394" 
+        width="560" 
+        height="315" 
         src="https://www.youtube.com/embed/i53ndlSMqSs" 
         title="Gal Costa e Tim Maia - Um dia de domingo (Fantástico) [Raridade]" 
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen></iframe>
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9; height:315px;">
+      </iframe>
       <template #footer>
         Episódio de exemplo
       </template>
@@ -117,7 +126,9 @@
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
         referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen></iframe>
+        allowfullscreen
+        style="width: 100%; aspect-ratio: 16 / 9; height:315px;">
+      </iframe>
       <template #footer>
         Episódio de exemplo
       </template>

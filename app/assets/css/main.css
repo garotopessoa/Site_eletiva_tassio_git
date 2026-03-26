@@ -6,3 +6,9 @@
   --font-mono: 'JetBrains Mono', monospace;
   --font-important: 'Bree Serif';
 }
+
+.responsive-iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
