@@ -1,6 +1,6 @@
 <template>
   <div class="w-dvw max-w-full h-[90dvh] flex justify-center items-center">
-    <h1 class="text-4xl mb-32">
+    <h1 class="text-4xl md:text-6xl mb-32">
       <span class="font-important">Recicle</span> sua <span class="text-primary">luz.</span>
     </h1>
   </div>
