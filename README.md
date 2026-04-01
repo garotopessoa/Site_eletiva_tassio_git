@@ -1,5 +1,5 @@
 <<<<<<< HEAD
-*para acessar:[https://site-eletiva-tassio-7bpn9yoxp-garotopessoas-projects.vercel.app/](https://site-eletiva-tassio-7bpn9yoxp-garotopessoas-projects.vercel.app/)*
+*para acessar:[https://site-eletiva-tassio-git.vercel.app?_vercel_share=Aop3OCaUJNf9Aeo7C3l6MPToBv6d4vcY/)*
 =======
 # Nuxt Content Starter
 
