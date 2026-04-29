@@ -6,7 +6,24 @@
   </div>
 
   <h2 class="text-4xl text-center mt-28" id="team">Quem somos?</h2>
+
+  <div class="flex justify-center w-full">
+    <p class="text-justify text-gray-600 text-sm mt-16 mb-8 w-64 md:w-96 px-4 md:px-0">Nossa equipe é integralmente formada por docentes e discentes
+      do Ensino Médio do colégio ludovicense Upaon-Açu. Aqui, há integração entre jovens e profissionais
+      para garantir um futuro melhor tanto para educação, quanto para a tecnologia, por meio do
+      presente projeto.
+    </p>
+  </div>
   <div class="flex flex-wrap gap-3 mt-9 justify-center px-12">
+    <UCard variant="soft">
+      <template #header>
+        <div class="ml-3">Organizador</div>
+      </template>
+
+      <List :items="['Prof. Tássio']" />
+    </UCard>
+    <div class="w-full"></div>
+
     <UCard variant="soft">
       <template #header>
         Desenvolvedores do website
