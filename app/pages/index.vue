@@ -9,42 +9,44 @@
   <div class="flex flex-wrap gap-3 mt-9 justify-center px-12">
     <UCard variant="soft">
       <template #header>
-        Arthur Vieira
+        Desenvolvedores do website
       </template>
 
-      <template #footer>
-        Lorem ipsum dolor sit amet
-        <UAvatar src="https://github.com/arthurdeveloper.png" />
-      </template>
+      <List :items="['André Jordão', 'Arthur Vieira', 'João Vitor Prazeres', 'Lucas Raposo']" />
     </UCard>
 
     <UCard variant="soft">
       <template #header>
-        Lucas Raposo
+        Design/Marketing
       </template>
 
-      <template #footer>
-        Lorem ipsum dolor sit amet
-        <UAvatar src="https://github.com/garotopessoa.png" />
-      </template>
+      <List :items="['Maria Eduarda Porta', 'Vitória Roberta', 'Beatriz Evangelista', 'César Cauan',
+        'Leandro Luís', 'Antônio Luís', 'Daniel Marinho', 'Pedro Arthur Pontes', 'Cristian Manuel',
+        'Miguel Esteves', 'Neilton Júnior', 'Caio Vitor'
+      ]" />
     </UCard>
 
     <UCard variant="soft">
       <template #header>
-        Equipe
+        Making off
       </template>
 
-      <template #footer>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-        Morbi suscipit sapien augue, dapibus auctor metus luctus vel.
-        Pellentesque non risus id orci ornare consectetur sit amet dignissim velit.
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        Nunc posuere lacus enim, in aliquam orci sodales nec.
-        Donec pellentesque purus purus, id placerat turpis fringilla nec.
-        Pellentesque lacinia arcu non venenatis iaculis. Fusce ut varius sem.
-        <UAvatar src="https://github.com/arthurdeveloper.png" />
-      </template>
+      <List :items="['Lucas Costa', 'Pedro Lucas', 'Arthur Morais', 'Anthony Araújo', 'Thiago José',
+        'Max Filho', 'Sara'
+      ]" />
     </UCard>
+
+    <UCard variant="soft">
+      <template #header>
+        Podcast
+      </template>
+
+      <List :items="['Gabriela Sena', 'Maria Aule', 'Isadora Fernandes', 'Giovana Fook', 'Isaque Ryan',
+        'Ângelo Pietro', 'Agata Aranha', 'Kayky Evangelista', 'Layla Sophia', 'Aline de Jesus'
+      ]" />
+    </UCard>
+
+
   </div>
 
   <h2 class="text-4xl text-center mt-28" id="podcast">Nosso podcast</h2>
