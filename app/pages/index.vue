@@ -8,7 +8,7 @@
   <div id="presentation">
     <h2 class="text-4xl text-center mt-28">O que é?</h2>
 
-    <div class="flex flex-wrap justify-around">
+    <div class="flex flex-wrap sm:justify-center justify-around">
       <p class="text-justify text-gray-600 text-sm mt-16 mb-8 w-64 md:w-96 px-4 md:px-0">
         Nosso projeto consiste numa luminária economicamente acessível e movida a energia solar.
         Sua carga é feita por meio de uma placa solar embutida, podendo ser carregada durante
@@ -17,7 +17,7 @@
         em sua residência.
       </p>
 
-      <div class="flex items-center">
+      <div class="flex flex-wrap items-center justify-center">
         <NuxtImg 
           src="https://www.sgdes.pr.gov.br/sites/sgdes/arquivos_restritos/files/imagem/2024-06/07_0.png" 
           :width="90"
