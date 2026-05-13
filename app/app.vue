@@ -18,11 +18,6 @@
       label: 'Podcast',
       to: '#podcast',
       active: route.path.startsWith('#podcast')
-    },
-    {
-      label: 'Blog',
-      to: '/blog',
-      active: route.path.startsWith('/blog')
     }
   ]);
 

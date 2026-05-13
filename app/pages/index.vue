@@ -5,6 +5,46 @@
     </h1>
   </div>
 
+  <div id="presentation">
+    <h2 class="text-4xl text-center mt-28">O que é?</h2>
+
+    <div class="flex flex-wrap justify-around">
+      <p class="text-justify text-gray-600 text-sm mt-16 mb-8 w-64 md:w-96 px-4 md:px-0">
+        Nosso projeto consiste numa luminária economicamente acessível e movida a energia solar.
+        Sua carga é feita por meio de uma placa solar embutida, podendo ser carregada durante
+        o dia e utilizada durante a noite, por exemplo. Com isso, tem-se uma forma democrática
+        de propagar formas limpas de energia para aqueles que não possuem aparato solar completo
+        em sua residência.
+      </p>
+
+      <div class="flex items-center">
+        <NuxtImg 
+          src="https://www.sgdes.pr.gov.br/sites/sgdes/arquivos_restritos/files/imagem/2024-06/07_0.png" 
+          :width="90"
+          :height="90"
+        />
+
+        <NuxtImg 
+          src="https://www.sgdes.pr.gov.br/sites/sgdes/arquivos_restritos/files/imagem/2024-06/11_0.png" 
+          :width="90"
+          :height="90"
+        />
+
+        <NuxtImg 
+          src="https://www.sgdes.pr.gov.br/sites/sgdes/arquivos_restritos/files/imagem/2024-06/12_0.png" 
+          :width="90"
+          :height="90"
+        />
+
+        <NuxtImg 
+          src="https://www.sgdes.pr.gov.br/sites/sgdes/arquivos_restritos/files/imagem/2024-06/13_0.png" 
+          :width="90"
+          :height="90"
+        />
+      </div>
+    </div>
+  </div>
+
   <h2 class="text-4xl text-center mt-28" id="team">Quem somos?</h2>
 
   <div class="flex justify-center w-full">
@@ -20,7 +60,7 @@
         <div class="ml-3">Organizador</div>
       </template>
 
-      <List :items="['Prof. Tássio']" />
+      <List :items="['Prof. Tássio', 'Prof. Marcone Maia']" />
     </UCard>
     <div class="w-full"></div>
 
@@ -29,7 +69,7 @@
         Desenvolvedores do website
       </template>
 
-      <List :items="['André Jordão', 'Arthur Vieira', 'João Vitor Prazeres', 'Lucas Raposo']" />
+      <List :items="['André Jordão', 'Arthur Vieira', 'João Vitor Prazeres', 'Lucas Raposo', 'Thales Gabriel', 'Gustavo Moreira']" />
     </UCard>
 
     <UCard variant="soft">
@@ -39,17 +79,17 @@
 
       <List :items="['Maria Eduarda Porta', 'Vitória Roberta', 'Beatriz Evangelista', 'César Cauan',
         'Leandro Luís', 'Antônio Luís', 'Daniel Marinho', 'Pedro Arthur Pontes', 'Cristian Manuel',
-        'Miguel Esteves', 'Neilton Júnior', 'Caio Vitor'
+        'Miguel Esteves', 'Neilton Júnior', 'Caio Vitor', 'Maria Araújo', 'Jorge Luís'
       ]" />
     </UCard>
 
     <UCard variant="soft">
       <template #header>
-        Making off
+        Making of
       </template>
 
       <List :items="['Lucas Costa', 'Pedro Lucas', 'Arthur Morais', 'Anthony Araújo', 'Thiago José',
-        'Max Filho', 'Sara'
+        'Max Filho', 'Sara Fernandes', 'Mateus Leone'
       ]" />
     </UCard>
 
@@ -58,8 +98,9 @@
         Podcast
       </template>
 
-      <List :items="['Gabriela Sena', 'Maria Aule', 'Isadora Fernandes', 'Giovana Fook', 'Isaque Ryan',
-        'Ângelo Pietro', 'Agata Aranha', 'Kayky Evangelista', 'Layla Sophia', 'Aline de Jesus'
+      <List :items="['Gabriela Sens', 'Maria Alice', 'Isadora Fernandes', 'Giovana Fook', 'Isaque Ryan',
+        'Ângelo Pietro', 'Agata Aranha', 'Kayky Evangelista', 'Layla Sophia', 'Aline de Jesus',
+        'Catharina Aroso'
       ]" />
     </UCard>
 
@@ -68,89 +109,8 @@
 
   <h2 class="text-4xl text-center mt-28" id="podcast">Nosso podcast</h2>
   <div class="flex mt-9 justify-center flex-wrap px-12 gap-3">
-    <UCard variant="soft">
-      <template #header>
-        Exemplo
-      </template>
-
-      <iframe
-        height="315"
-        src="https://www.youtube.com/embed/_CSjq-UyaWA"
-        title="Secos &amp; Molhados - Sangue Latino [Raridade]"
-        frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin"
-        allowfullscreen
-        style="width: 100%; aspect-ratio: 16 / 9; height:315px;"
-      />
-
-      <template #footer>
-        Episódio de exemplo
-      </template>
-    </UCard>
-
-    <UCard variant="soft">
-      <template #header>
-        Exemplo
-      </template>
-
-      <iframe 
-        width="560"
-        height="315"
-        src="https://www.youtube.com/embed/CNovnrkM8XU"
-        title="Travessia | Milton Nascimento"
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen
-        style="width: 100%; aspect-ratio: 16 / 9; height:315px;">
-      </iframe>
-
-      <template #footer>
-        Episódio de exemplo
-      </template>
-    </UCard>
-
-    <UCard variant="soft">
-      <template #header>
-        Exemplo
-      </template>
-
-      <iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/i53ndlSMqSs" 
-        title="Gal Costa e Tim Maia - Um dia de domingo (Fantástico) [Raridade]" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen
-        style="width: 100%; aspect-ratio: 16 / 9; height:315px;">
-      </iframe>
-      <template #footer>
-        Episódio de exemplo
-      </template>
-    </UCard>
-
-    <UCard variant="soft">
-      <template #header>
-        Exemplo
-      </template>
-
-      <iframe 
-        width="525" 
-        height="394" 
-        src="https://www.youtube.com/embed/958mJ3rV_LQ" 
-        title="The Beatles - Twist &amp; Shout (Live At The Royal Variety Performance)" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" 
-        allowfullscreen
-        style="width: 100%; aspect-ratio: 16 / 9; height:315px;">
-      </iframe>
-      <template #footer>
-        Episódio de exemplo
-      </template>
-    </UCard>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/6aNfz1XifJp60QIWDqJWI3?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="false" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/3OuPR8Nfym2xmtS5VK6IxF?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="false" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+    <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/episode/5fWTEVlSj8WDGgMweqPb2a?utm_source=generator" width="100%" height="352" frameBorder="0" allowfullscreen="false" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
   </div>
 </template>

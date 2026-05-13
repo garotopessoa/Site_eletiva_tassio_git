@@ -1,5 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  app: {
+    head: {
+      title: 'LIS',
+      htmlAttrs: {
+        lang: 'pt-br'
+      }
+    }
+  },
   modules: [
     '@nuxt/content',
     '@nuxt/eslint',
