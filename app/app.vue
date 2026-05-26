@@ -34,8 +34,8 @@
         <UNavigationMenu :items="items" class="text-neutral justify-between hidden md:block" />
       </template>
 
-      <template #body>
-        <UNavigationMenu :items="items" class="text-neutral justify-between" orientation="vertical" />
+      <template #body class="bg-white!">
+        <UNavigationMenu :items="items" class="text-neutral justify-between bg-white" orientation="vertical" />
       </template>
     </UHeader>
 
