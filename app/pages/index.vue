@@ -95,14 +95,15 @@ import Card from '~/components/Card.vue';
 
   <h2 class="text-4xl text-center mt-28" id="podcast">Nosso podcast</h2>
   <div class="flex mt-24 justify-center flex-wrap sm:px-12 gap-3 mb-24">
-    <Episode url="https://open.spotify.com/embed/episode/49DqRvU6pYxyzBj4NCMnVn" />
-    <Episode url="https://open.spotify.com/embed/episode/5lVPeSqBiupoTb97bUIBSr?si=clsiIpFJTVuK5L0WX_X-yw" />
-    <Episode url="https://open.spotify.com/embed/episode/4zoF8j0HexsreK61iSWk3q?si=de51a4311c834e22" />
-    <Episode url="https://open.spotify.com/embed/episode/7cikKzyBuacoEhkmorfdI2?si=0cf823e1e262454f" />
-    <Episode url="https://open.spotify.com/embed/episode/2Ab9R2U6Jo6WQkKtKjFmOb?si=bf5e554cce88410a" />
-    <Episode url="https://open.spotify.com/embed/episode/76s5eIldItXMjQw9ajbKsS?si=c5e58e1eccf84e35" />
-    <Episode url="https://open.spotify.com/embed/episode/6EX49pPE8UHgpPg0fWGpRI?si=01bfae7e7b6b43b6" />
-    <Episode url="https://open.spotify.com/embed/episode/02OTngtOdy19Rtx1ldOQL8?si=1e36668e0bd7415d" />
-    <Episode url="https://open.spotify.com/embed/episode/6dqrOFqagWFBPxx2EC8qyN?si=6e208a2f34f74ac1" />
+    <Episode url="https://open.spotify.com/embed/episode/1oVUtuO63EQ5ymmtisjqqn" />
+    <Episode url="https://open.spotify.com/embed/episode/0TAjaXNMbYFSTWTZ6oviZp?si=6f42b468ff2f4cc4" />
+    <Episode url="https://open.spotify.com/embed/episode/5Vp4mejsnaFu54W2d55NiO?si=23dc100036fd4525" />
+    <Episode url="https://open.spotify.com/embed/episode/0P8lYr54eZm6bmf1wakbdO?si=18d7565cb1cf4e51" />
+    <Episode url="https://open.spotify.com/embed/episode/0EOkgIj1tJFpSvXW8RNosZ?si=9ee73c360ce9471b" />
+    <Episode url="https://open.spotify.com/embed/episode/4JmjkLXjNF6jN1GkAMq389?si=22950c97f7c541d1" />
+    <Episode url="https://open.spotify.com/embed/episode/55jIshlfSbLKtDqq0zfBSs?si=da7d730b44ed4984" />
+    <Episode url="https://open.spotify.com/embed/episode/5RHs016oN1PyL8qRvOYPHH?si=264b70bd960b4005" />
+    <Episode url="https://open.spotify.com/embed/episode/0kGk31IUcvTNIiJND6VbWI?si=90a4b523054b4d20" />
+    <Episode url="https://open.spotify.com/embed/episode/0aULEBZGkjQyffdlRsCqpF?si=271577376fd849c5" />
   </div>
 </template>
